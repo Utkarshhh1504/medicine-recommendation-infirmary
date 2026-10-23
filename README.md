@@ -15,7 +15,6 @@ A Streamlit app backed by a MySQL database, plus a Hugging Face (BART) model tha
 ## Setup
 
 1. Install the packages: pip install -r requirements.txt
-2. The model also needs: pip install transformers torch
 3. Start MySQL and create a database called infirmary.
 4. Set your MySQL password: export MYSQL_PASSWORD="your-password"
 5. Run the app: streamlit run app.py
